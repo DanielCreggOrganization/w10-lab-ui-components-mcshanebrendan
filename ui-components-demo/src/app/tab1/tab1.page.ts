@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonCard, IonCardSubtitle, IonCardTitle, } from '@ionic/angular/standalone';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
-
+import { TabsPage } from '../tabs/tabs.page';
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
